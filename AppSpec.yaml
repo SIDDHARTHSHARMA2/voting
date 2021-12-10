@@ -1,0 +1,9 @@
+version: 0.0
+Resources:
+  - myLambdaFunction:
+      Type: AWS::Lambda::Function
+      Properties:
+        Name: "vote-container"
+        Alias: "vote-container-alias"
+        CurrentVersion: "1"
+        TargetVersion: "1"
